@@ -1,0 +1,4 @@
+python train_mask_rcnn.py  --epochs 20 --batch-size 4 --dataset coco --network resnet18_v1b --val-interval 2 -j 8 --verbose --use-fpn --gpus 0 
+
+F:/HoangAnh/ScanComProject/Images/dataTrainBaseline/Lateral/dataTrain-27-5/trainFormatCoco/train
+F:/HoangAnh/ScanComProject/Images/dataTrainBaseline/Lateral/dataTrain-27-5/dataTrain1st
